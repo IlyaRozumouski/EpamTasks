@@ -5,7 +5,7 @@
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
 def strlen(txt):
     count=0
-    for char in txt:
+    for i in txt:
         count+=1
     return count
 
