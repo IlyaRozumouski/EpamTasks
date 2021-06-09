@@ -1,9 +1,14 @@
-dictionary = dict()
-def func1(abc):
+list = []
+list = input("Input string: ")
+new_list = []
+for elem in list:
+     if new_list.count(elem)==1:
+          continue
+     else:new_list.append(elem)
+new_list.sort()
+print new_list
 
-    for i in abc:
-        dictionary[i] = 1
+#['red', 'white', 'black', 'red', 'green', 'black']
 
-txt = input("Input string: ")
-func1(txt)
-print dictionary
+
+
