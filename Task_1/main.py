@@ -9,8 +9,8 @@ def strlen(txt):
         count+=1
     return count
 
-txt = raw_input("Введите строку: ")
+txt = raw_input("Input string: ")
 
-print "Символов:", strlen(txt)
+print "Symbols: ", strlen(txt)
 
 # See PyCharm help at https://www.jetbrains.com/help/pycharm/
