@@ -3,9 +3,9 @@
 
 # Press Shift+F10 to execute it or replace it with your code.
 # Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-def strlen(txt):
+def strlen(abc):
     count=0
-    for i in txt:
+    for i in abc:
         count+=1
     return count
 
