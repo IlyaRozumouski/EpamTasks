@@ -2,7 +2,7 @@ list = []
 list = input("Input string: ")
 new_list = []
 for elem in list:
-     if new_list.count(elem)==1:
+     if list.count(elem)>=2:
           continue
      else:new_list.append(elem)
 new_list.sort()
